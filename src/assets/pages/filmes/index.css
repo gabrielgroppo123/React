@@ -1,0 +1,41 @@
+.pagina-filmes {
+    padding: 20px;
+    background-color: rgb(243, 243, 243);
+
+    section {
+        margin: 20px 0px;
+        padding: 10px 30px 30px 30px;
+        background-color: #fff;
+        max-width: 1200px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.214);
+    }
+
+    input {
+        border-color: #adadad;
+        border-radius: 10px;
+    }
+
+    .cadastro {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        padding: 10px;
+        border-bottom: 1px solid #adadad;
+        text-align: left;
+    }
+    
+    button{
+         background-color: #000000;
+    }
+    
+}

@@ -5,6 +5,7 @@ import './index.css'
 import Home from './assets/pages/home/home.jsx'
 import Erro from './assets/pages/erro/erro.jsx'
 import Exercicios from './assets/pages/exercicios/exercicios.jsx'
+import Filmes from './assets/pages/filmes/index.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/home' element={<Home/>}/>
         <Route path='/exercicios' element={<Exercicios/>}/>
         <Route path='*' element={<Erro/>}/>
+        <Route path='/filmes' element={<Filmes></Filmes>}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
